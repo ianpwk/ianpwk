@@ -1,0 +1,134 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 370px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.dark-img {
+filter: brightness(50%);
+}
+
+
+.menu-img {
+	height: 150px;
+	width: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+/*.dropdown-sidenav {
+	display: none;
+}*/
+
+.dropdown-sidenav li a {
+	padding-left: 80px;
+}
+
+.text-menu {
+	padding: 50px 0 0 20px;
+}
+
+.text-menu .btn {
+	margin-top:-30px;
+}
+
+.fanca .parallax-container .responsive-img {
+	margin-left: 20px;
+}
+
+.fanca .parallax-container .responsive-img img {
+	width: 100px;
+}
+
+
+.fanca .parallax-container .tabs-parallax {
+	padding-top: 60px;
+}
+
+.fanca .parallax-container{
+	height: 250px;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+.fanca .parallax-container .section {
+    top: 5%;
+  }
+	
+.fanca	.parallax-container {
+  height: 20px;
+}
+.fanca .parallax-container .responsive-img img {
+	width: 20%;
+}
+
+.fanca .parallax-container .tabs-parallax {
+	padding-top: 60px;
+}
+@media only screen and (max-width : 600px) {
+	.fanca .parallax-container .responsive-img {
+	margin-left: 94px;
+}
+	
+.fanca	.parallax-container {
+  min-height: 220px;
+}
+.fanca .parallax-container .responsive-img img {
+	width: 110%;
+}
+
+.fanca .parallax-container .tabs-parallax {
+	padding-top: 200px;
+}
+
+  #index-banner .section {
+    top: 0;
+}
+
+@media only screen and (max-width : 400px) {
+	.parallax-container{
+		height: 120%
+	}
+	
+}
